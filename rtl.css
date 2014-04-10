@@ -1,0 +1,271 @@
+/*
+Theme Name: Radiate
+Theme URI: http://themegrill.com/themes/radiate/
+Author: ThemeGrill
+Author URI: http://themegrill.com/
+Description: Radiate is a clean, creative and light retina ready responsive blogging theme supporting parallax header image. It integrates primary color option, custom background, custom css and few other features through WordPress customizer. The theme is translation ready and you can get free support on http://themegrill.com/support-forum. View demo at http://demo.themegrill.com/radiate. Available Translations -> French.
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: radiate
+Domain Path: /languages/
+Tags: light, white, two-columns, right-sidebar, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, post-formats, sticky-post, threaded-comments, translation-ready
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+
+/* =Reset
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* Text elements */
+
+li > ul,
+li > ol {
+	margin-right: 1.5em;
+}
+
+blockquote {
+	border-width: 1px 3px 1px 1px;
+}
+
+/* For icon display hide of jetpack site stats */
+ 	
+textarea {
+	padding-right: 3px;
+	
+}
+
+/* Alignment */
+.alignleft {
+	float: right;
+	margin-left: 1.5em;
+}
+.alignright {
+	float: left;
+	margin-right: 1.5em;
+}
+
+/* Text meant only for screen readers */
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.6);
+	left:auto;
+	right: 5px;
+	 /* Above WP toolbar */
+}
+
+/* =Layout
+----------------------------------------------- */
+#primary {
+	float: right;
+}
+
+#secondary {
+	
+	float: left;
+}
+
+
+/* =Header
+----------------------------------------------- */
+
+.site-branding {
+	float: right;
+	margin-left: 30px;
+}
+.site-title {
+	padding: 0.5rem 2.5rem 0.5rem 2rem;
+	float: right;
+}
+
+#masthead .search-form {
+	float: left;
+	position: absolute;
+	left: 0;
+	right:auto;
+}
+
+.header-search-icon {
+	float: left;
+	border-right: 1px solid #E1E4E6;
+	}
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation {
+	
+	float: left;
+
+}
+.main-navigation ul {
+	
+	padding-right: 0;
+	padding-left:280px;
+}
+.main-navigation li {
+	float: right;
+	border-right: 1px solid #E1E4E6;
+	padding-left:0px;
+}
+
+/* Dropdown */
+
+.main-navigation ul ul {
+	float: right;
+	right: 0;
+	left:auto;
+
+}
+
+.main-navigation ul ul li {
+	border-right: none;
+}
+
+.main-navigation ul ul ul {
+	right: 100%;
+	left:auto;
+}
+/* =Content
+----------------------------------------------- */
+.post .entry-content ul, .post .entry-content ol {
+   margin: 0 20px 20px 0;
+}
+
+.entry-header .entry-meta span {
+	padding-left: 20px;
+}
+.entry-meta span {
+	padding-left: 20px;	
+
+}
+/* =Featured pages section - front page
+----------------------------------------------- */
+.tg-one-third {
+	float: right;
+	margin: 0 0 3rem 3.284072%;
+}
+.tg-one-third-last {
+	margin-left: 0;
+}
+/* =WordPress Gallery Support
+----------------------------------------------- */
+
+.gallery .gallery-item { 
+	float: right; 
+}
+
+/* =Navigation
+----------------------------------------------- */
+[class*="navigation"] .nav-previous {
+	float: right;
+}
+
+[class*="navigation"] .nav-next {
+	float: left;
+	text-align: left;
+}
+
+/* =Comments
+----------------------------------------------- */
+
+
+.avatar {
+	float: right;
+}
+
+.comments-area .comment-edit-link, 
+.comments-area .comment-permalink,
+.comments-area .comment-date-time,
+.comments-area .comment-author-link {
+
+	margin-right: 100px;
+}
+
+.comments-area .comment-author-link span {
+	margin-right: 10px;
+}
+
+.comment ul, .comment ol {
+   margin: 0 20px 20px 0;
+}
+
+.comment .comment-reply-link {
+	float: left;
+}
+
+.comment-list .children {
+   margin-right: 20px;
+}
+
+/* Comment form */
+
+#respond h3#reply-title #cancel-comment-reply-link {
+	margin-right: 10px;
+	margin-right: 1rem;
+	
+}
+
+/* Search widget */
+
+.widget th, .widget td {
+   padding: 1px 2px 1px 1px;
+}
+
+.main-small-navigation {
+	
+	float: left;
+	
+	margin: 1rem 0 0 2.5rem;
+}
+
+.main-small-navigation ul ul a {
+  padding-right: 44px;
+}
+.main-small-navigation ul ul ul a {
+  padding-right: 66px;
+}
+
+/* All Mobile Portrait size smaller than 768 (devices and browsers) */
+@media screen and (max-width: 768px) {	
+	
+	.main-navigation {
+		margin: 1rem 0 0 2.5rem;
+	}
+	.main-small-navigation ul {
+		margin-right: -134px;
+	}
+	.main-small-navigation ul ul {
+		margin-right: 0;
+	}
+	
+}
+@media only screen and (max-width: 600px) {
+	
+}
+dd{
+	 color:black;
+	 }
+.widget-bar{
+		float:right;
+		margin-left:2%;
+		}
+.widget1{
+		float:right;
+		margin-left:2%;
+		}
+.widget2{
+		float:right;
+		margin-left:0;
+		}		
+
